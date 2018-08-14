@@ -1,6 +1,0 @@
-﻿  Projekt-1.cpp
-Projekt-1.obj : error LNK2005: "void __cdecl readNumber(void)" (?readNumber@@YAXXZ) already defined in io.obj
-Projekt-1.obj : error LNK2005: "int __cdecl writeNumber(void)" (?writeNumber@@YAHXZ) already defined in io.obj
-Projekt-1.obj : error LNK2005: "int a" (?a@@3HA) already defined in io.obj
-Projekt-1.obj : error LNK2005: "int b" (?b@@3HA) already defined in io.obj
-D:\GIT\Projekt-1\Debug\Projekt-1.exe : fatal error LNK1169: one or more multiply defined symbols found
