@@ -1,19 +1,15 @@
 #include "stdafx.h"
 #include <iostream>
-using namespace std;
 
-int a, b;
-
-void readNumber()
+int readNumber()
 {
-	cout << "Please enter first number: ";
-	cin >> a;
-	cout << endl << "Please enter second number: ";
-	cin >> b;
-	cout << endl << "The sum is equal to: ";
+	std::cout << "Enter a number: ";
+	int x;
+	std::cin >> x;
+	return x;
 }
 
-int writeNumber()
+void writeAnswer(int x)
 {
-	return a + b;
+	std::cout << "The answer is " << x << std::endl;
 }
