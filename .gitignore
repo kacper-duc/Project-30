@@ -11,6 +11,8 @@
 *.userprefs
 
 # Build results
+Debug
+x64/Debug
 Debug/
 DebugPublic/
 Release/
