@@ -1,21 +1,7 @@
-#pragma once
-#include "stdafx.h"
-#include <iostream>
-using namespace std;
+#ifndef IO_H
+#define IO_H
 
-int a, b;
+int readNumber();
+void writeAnswer(int x);
 
-void readNumber()
-{
-	cout << "Please enter first number: ";
-	cin >> a;
-	cout << endl << "Please enter second number: ";
-	cin >> b;
-	cout << endl << "The sum is equal to: ";
-}
-
-int writeNumber()
-{
-	return a + b;
-}
-
+#endif
